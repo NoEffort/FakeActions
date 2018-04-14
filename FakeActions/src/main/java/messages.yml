@@ -1,0 +1,21 @@
+# Messages:
+
+# Joining / Leaving Messages:
+# {USERNAME} is used to get the raw name.
+# {PLAYERNAME} is used to get the custom display name (nickanames, rank titles, etc);
+fakeJoin: '&e{USERNAME} has joined the game.'
+fakeLeave: '&e{USERNAME} has left the game.'
+
+# Kicking / Banning Messages:
+# {SENDER} is used to get who sent the message. Specified in the command.
+# {USERNAME} is used to get the raw name of who was banned.
+# {PLAYERNAME} is used to get the custom display name.
+# {MESSAGE} is used to get the message you defined in the command.
+fakeKick: '&6Player &c{SENDER} &6kicked {USERNAME} for {MESSAGE}.'
+fakeBan: '&6Player &c{SENDER} &bbanned &c{USERNAME} &6for: &c{MESSAGE}&6.'
+
+# Opping / Deopping Messages:
+# {SENDER} is used to get who sent the message.
+# {USERNAME} is used to get the raw username.
+fakeOP: '&7&o[{SENDER}: Opped {USERNAME}]'
+fakeDeOP: '&7&o[{SENDER}: De-opped {USERNAME}]'

@@ -1,0 +1,22 @@
+name: FakeActions
+main: me.noeffort.fakeactions.Main
+version: 0.3.2
+commands:
+  fakejoin:
+    description: Sends a fake join message for specified player.
+    usage: "Usage: /<command> [player]"
+  fakeleave:
+    description: Sends a fake leave messages for sepcified player.
+    usage: "Usage: /<command> [player]"
+  fakeop:
+    description: Sends a fake op message for specified player.
+    usage: "Usage: /<command> [player] <sender>"
+  fakedeop:
+    description: Sends a fake deop message for specified player.
+    usage: "Usage: /<command> [player] <sender>"
+  fakekick:
+    description: Sends a fake kick message for specified player.
+    usage: "Usage: /<command> [player] <message>"
+  fakeban:
+    description: Sends a fake ban message for specified player.
+    usage: "Usage: /<command> [player] <sender> <message>"
