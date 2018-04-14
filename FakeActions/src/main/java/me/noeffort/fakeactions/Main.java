@@ -44,8 +44,8 @@ public class Main extends JavaPlugin {
 	public void registerMessages() {
 		setMessage("fakeJoin", "&e{STRING} has joined the game.");
 		setMessage("fakeLeave", "&e{STRING} has left the game.");
-		setMessage("fakeKick", "&6Player &c{SENDER} &6kicked {USERNAME} for {MESSAGE}.");
-		setMessage("fakeBan", "&6Player &c{SENDER} &bbanned &c{USERNAME} &6for: &c{MESSAGE}&6.");
+		setMessage("fakeKick", "&6Player &c{SENDER} &6kicked {STRING} for {MESSAGE}.");
+		setMessage("fakeBan", "&6Player &c{SENDER} &bbanned &c{STRING} &6for: &c{MESSAGE}&6.");
 		setMessage("fakeOP", "&7&o[{SENDER}: Opped {USERNAME}]");
 		setMessage("fakeDeOP", "&7&o[{SENDER}: De-opped {USERNAME}]");
 	}
